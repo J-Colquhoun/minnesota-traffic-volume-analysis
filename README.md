@@ -12,7 +12,7 @@ Transportation teams need a clear view of when interstate demand rises or falls 
 
 ![Minnesota Interstate Traffic Volume Dashboard](images/minnesota_traffic_volume_dashboard.png)
 
-> The Tableau Public URL will be added after the existing visualization link is recovered.
+[View the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/jahmoy.colquhoun/viz/MinnesotaInterstateTrafficVolume_17861436384260/MinnesotaInterstateTrafficVolumeDashboard)
 
 ## Business questions
 
