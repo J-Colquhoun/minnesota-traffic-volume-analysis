@@ -2,45 +2,42 @@
 
 ## Project overview
 
-This project analyzes hourly traffic volume on westbound Interstate 94 between Minneapolis and St. Paul, Minnesota. The goal is to help transportation stakeholders understand when traffic demand is highest and how weather, holidays, and time patterns affect roadway use.
+This project analyzes hourly traffic volume on westbound Interstate 94 between Minneapolis and St. Paul, Minnesota. The goal is to help transportation stakeholders understand when traffic demand is highest and how holidays, weather, and time patterns affect roadway use.
 
 ## Business problem
 
-Transportation planners need to anticipate periods of heavy roadway demand so they can make better decisions about traffic management, maintenance scheduling, traveler communication, and resource allocation.
+Transportation teams need a clear view of when interstate demand rises or falls so they can plan operations, staffing, incident readiness, congestion responses, and traveler communication.
 
 ## Dashboard
 
-> Dashboard screenshot will be added to this section.
+![Minnesota Interstate Traffic Volume Dashboard](images/minnesota_traffic_volume_dashboard.png)
 
-> Tableau Public link will be added after the visualization is published or its existing URL is recovered.
+> The Tableau Public URL will be added after the existing visualization link is recovered.
 
 ## Business questions
 
-- When is traffic volume highest by hour, day, month, and season?
-- How does traffic change on holidays compared with regular days?
-- Which weather conditions are associated with higher or lower traffic volume?
-- What recurring patterns could support transportation planning?
+- When does traffic volume change most across the day?
+- Which holidays show the greatest average demand?
+- How does traffic vary by weather condition?
 
 ## Methods
 
-1. Reviewed the data for missing values, duplicate records, and inconsistent categories.
-2. Converted the date-time field into analysis-ready date parts, including hour, weekday, month, and year.
-3. Compared traffic volume across time periods, holidays, and weather conditions.
-4. Built interactive Tableau views to make the patterns easy to explore.
-5. Summarized the results as operational recommendations.
+1. **Prepare:** Reviewed the date/time, holiday, weather, and traffic-volume fields and organized time dimensions for comparison.
+2. **Analyze:** Compared average traffic volume by hour, holiday, and primary weather condition.
+3. **Visualize:** Built a calendar-style heatmap, packed-bubble chart, and ranked bar chart in Tableau.
+4. Added interactive filters so users can isolate a year and holiday status for focused comparisons.
 
 ## Key findings
 
-1. **Traffic demand follows a strong daily cycle.** Volume rises during commuting periods and falls substantially overnight.
-2. **Weekdays and weekends have different patterns.** Weekday traffic is more concentrated around commuting hours, while weekend demand is distributed differently throughout the day.
-3. **Calendar and weather conditions affect roadway use.** Holidays and adverse weather can reduce or shift normal traffic patterns, so they should be considered alongside time-of-day trends.
+1. **New Year's Day appears as the highest-volume holiday.**
+2. **Clouds and haze lead the weather categories, while squall has the lowest average traffic volume.**
+3. **Traffic varies substantially by hour and date, supporting time-specific rather than one-size-fits-all planning.**
 
 ## Recommendations
 
-- Prioritize traffic monitoring and traveler messaging during recurring peak periods.
-- Schedule planned maintenance during consistently lower-volume windows when operationally feasible.
-- Use separate weekday, weekend, holiday, and severe-weather baselines instead of relying on one overall average.
-- Combine historical trends with current weather information when planning staffing and congestion responses.
+- **Prioritize peak periods:** Align staffing, traffic messaging, and incident readiness with the busiest hours and dates.
+- **Prepare for holiday demand:** Use New Year's Day and other high-volume holidays as planning benchmarks.
+- **Add context in future analysis:** Incorporate roadway direction, location, crashes, and travel speed to explain where congestion has the greatest impact.
 
 ## Tools
 
@@ -58,7 +55,7 @@ The dataset contains hourly traffic, weather, and holiday observations collected
 
 ## Presentation
 
-> The project presentation will be uploaded here when the original PowerPoint file is reattached.
+[Download the Minnesota Interstate Traffic Volume presentation](presentation/minnesota_traffic_volume_presentation.pptx)
 
 ## Repository structure
 
@@ -66,11 +63,7 @@ The dataset contains hourly traffic, weather, and holiday observations collected
 .
 ├── README.md
 ├── images/
-│   └── dashboard.png
+│   └── minnesota_traffic_volume_dashboard.png
 └── presentation/
     └── minnesota_traffic_volume_presentation.pptx
 ```
-
-## Next update
-
-Add the final dashboard screenshot, Tableau Public URL, and presentation file.
